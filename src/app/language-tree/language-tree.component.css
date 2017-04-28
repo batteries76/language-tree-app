@@ -1,0 +1,48 @@
+.tree-container {
+  width: 100%;
+  background-color: lightslategrey;
+  padding: 5px;
+}
+
+.up-card-row {
+  display: flex;
+  justify-content: center;
+}
+
+.up-card {
+  width: 25%;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: yellow;
+}
+
+.head-card-row {
+  display: flex;
+  justify-content: center;
+}
+
+.head-card {
+  width: 39%;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: red;
+}
+
+.child-row {
+  display: flex;
+  justify-content: space-around;
+  background-color: mediumslateblue;
+  margin-right: 3px;
+  padding: 5px;
+  width: 99%;
+}
+
+.child-card {
+  font-size: 14px;
+  width: 100%;
+  margin-right: 5px;
+  padding: 3px;
+  background-color: green;
+}

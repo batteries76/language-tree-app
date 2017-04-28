@@ -1,0 +1,141 @@
+{
+  "name": "Indo-European",
+  "level id": 100,
+  "alive": "x",
+  "children": [ {
+    "name": "Anatolian",
+    "level id": 101,
+    "alive": "x",
+    "children": [ {
+      "name": "Luwian",
+      "level id": 102,
+      "alive": "n",
+      "children": [ {
+        "name": "Lycean",
+        "level id": 103,
+        "alive": "n",
+        "children": []
+        } ]
+      },{
+      "name": "Hittite",
+      "level id": 102,
+      "alive": "n",
+      "children": []
+      },{
+      "name": "Carian",
+      "level id": 102,
+      "alive": "n",
+      "children": [ {
+        "name": "Lydian",
+        "level id": 103,
+        "alive": "n",
+        "children": [ {
+          "name": "Palaic",
+          "level id": 104,
+          "alive": "n",
+          "children": [ {
+            "name": "Pisidian",
+            "level id": 105,
+            "alive": "n",
+            "children": []
+          } ]
+        } ]
+      } ]
+    } ]
+  },{
+    "name": "Indo-Iranian",
+    "level id": 101,
+    "alive": "x",
+    "children": []
+    },{
+    "name": "Balto-Slavic",
+    "level id": 101,
+    "alive": "x",
+    "children": [ {
+      "name": "Baltic",
+      "level id": 102,
+      "alive": "x",
+      "children": [ {
+        "name": "Eastern Baltic",
+        "alive": "x",
+        "level id": 103,
+        "children": [ {
+          "name": "Latvian",
+          "level id": 104,
+          "alive": "y",
+          "children": []
+          },{
+          "name": "Lithuanian",
+          "level id": 104,
+          "alive": "y",
+          "children": []
+            } ]
+        },{
+        "name": "Western Baltic",
+        "level id": 103,
+        "alive": "x",
+        "children": [ {
+          "name": "Sudovian",
+          "level id": 104,
+          "alive": "n",
+          "children": []
+          } ]
+       } ]
+    },{
+      "name": "Slavic",
+      "level id": 102,
+      "alive": "x",
+      "children": [ {
+        "name": "Western Slavic",
+        "level id": 103,
+        "alive": "x",
+        "children": [ {
+          "name": "Old West Slavic",
+          "level id": 104,
+          "alive": "n",
+          "children": [ {
+              "name": "Czech-Slovak",
+              "level id": 105,
+              "alive": "n",
+              "children": [ {
+                "name": "Czech",
+                "level id": 106,
+                "alive:": "y",
+                "children": []
+                },{
+                "name": "Slovak",
+                "level id": 106,
+                "alive": "y",
+                "children": []
+              } ]
+            } ]
+          } ]
+      },{
+        "name": "Southern Slavic",
+        "level id": 103,
+        "alive": "x",
+        "children": [ {
+          "name": "Serbo-Croatian",
+          "level id": 104,
+          "alive": "y",
+          "children": []
+          } ]
+      },{
+        "name": "Eastern Slavic",
+        "level id": 103,
+        "alive": "x",
+        "children": [ {
+          "name": "Ruthenian",
+          "level id": 104,
+          "alive": "n",
+          "children": [ {
+            "name": "Ukrainian",
+            "level id": 105,
+            "alive": "y",
+            "children": []
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
+}

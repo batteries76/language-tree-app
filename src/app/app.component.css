@@ -1,0 +1,18 @@
+.app-title {
+  padding: 8px;
+}
+
+.app-language-tree-area {
+  padding: 8px;
+  width: 48%;
+  background-color: palegreen;
+  float: left;
+}
+
+.app-map-area {
+  padding: 8px;
+  width: 48%;
+  background-color: olivedrab;
+  display: inline-block;
+  height: 600px;
+}

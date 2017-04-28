@@ -1,0 +1,33 @@
+<div class="language-tree-heading">
+  language-tree area
+</div>
+<div class="tree-container">
+
+  <div class="up-card-row">
+    <div class="up-card" (click)="goBackUp()">
+      <h4 class="card-title">Back up the Tree?</h4>
+      <p class="card-text">Click to go up a level</p>
+    </div>
+  </div>
+
+  <div class="head-card-row">
+    <div class="head-card">
+      <h4 class="card-title">{{ languageHead?.name }}</h4>
+      <p class="card-text">{{ languageHead?.alive }}</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+
+  <div class="child-row">
+    <div *ngFor="let child of languageHead?.children">
+      <div class="child-card" (click)="makeNewHead(child)" (click)= "getMapData(child.cca2_code_array)">
+        <h4 class="card-title">{{ child?.name }}</h4>
+        <p class="card-text">{{ child?.alive }}</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,315 @@
+{
+  "name": "Indo-European",
+  "level id": 100,
+  "alive": "x",
+  "children": [
+    {
+      "name": "Anatolian",
+      "level id": 101,
+      "alive": "x",
+      "children": [
+        {
+          "name": "Luwian",
+          "level id": 102,
+          "alive": "n",
+          "children": [
+            {
+              "name": "Lycean",
+              "level id": 103,
+              "alive": "n",
+              "children": [],
+              "iso6393": "xxx",
+              "country_array": [],
+              "cca2_code_array": [],
+              "cca3_code_array": []
+            }
+          ],
+          "iso6393": "xxx",
+          "country_array": [],
+          "cca2_code_array": [],
+          "cca3_code_array": []
+        },
+        {
+          "name": "Hittite",
+          "level id": 102,
+          "alive": "n",
+          "children": [],
+          "iso6393": "hit",
+          "country_array": [],
+          "cca2_code_array": [],
+          "cca3_code_array": []
+        },
+        {
+          "name": "Carian",
+          "level id": 102,
+          "alive": "n",
+          "children": [
+            {
+              "name": "Lydian",
+              "level id": 103,
+              "alive": "n",
+              "children": [
+                {
+                  "name": "Palaic",
+                  "level id": 104,
+                  "alive": "n",
+                  "children": [
+                    {
+                      "name": "Pisidian",
+                      "level id": 105,
+                      "alive": "n",
+                      "children": [],
+                      "iso6393": "xps",
+                      "country_array": [],
+                      "cca2_code_array": [],
+                      "cca3_code_array": []
+                    }
+                  ],
+                  "iso6393": "plq",
+                  "country_array": [],
+                  "cca2_code_array": [],
+                  "cca3_code_array": []
+                }
+              ],
+              "iso6393": "xld",
+              "country_array": [],
+              "cca2_code_array": [],
+              "cca3_code_array": []
+            }
+          ],
+          "iso6393": "xcr",
+          "country_array": [],
+          "cca2_code_array": [],
+          "cca3_code_array": []
+        }
+      ],
+      "iso6393": "xxx",
+      "country_array": [],
+      "cca2_code_array": [],
+      "cca3_code_array": []
+    },
+    {
+      "name": "Indo-Iranian",
+      "level id": 101,
+      "alive": "x",
+      "children": [],
+      "iso6393": "xxx",
+      "country_array": [],
+      "cca2_code_array": [],
+      "cca3_code_array": []
+    },
+    {
+      "name": "Balto-Slavic",
+      "level id": 101,
+      "alive": "x",
+      "children": [
+        {
+          "name": "Baltic",
+          "level id": 102,
+          "alive": "x",
+          "children": [
+            {
+              "name": "Eastern Baltic",
+              "alive": "x",
+              "level id": 103,
+              "children": [
+                {
+                  "name": "Latvian",
+                  "level id": 104,
+                  "alive": "y",
+                  "children": [],
+                  "iso6393": "lav",
+                  "country_array": [
+                    "Latvia"
+                  ],
+                  "cca2_code_array": [
+                    "LV"
+                  ],
+                  "cca3_code_array": [
+                    "LVA"
+                  ]
+                },
+                {
+                  "name": "Lithuanian",
+                  "level id": 104,
+                  "alive": "y",
+                  "children": [],
+                  "iso6393": "lit",
+                  "country_array": [
+                    "Lithuania"
+                  ],
+                  "cca2_code_array": [
+                    "LT"
+                  ],
+                  "cca3_code_array": [
+                    "LTU"
+                  ]
+                }
+              ],
+              "iso6393": "xxx",
+              "country_array": [],
+              "cca2_code_array": [],
+              "cca3_code_array": []
+            },
+            {
+              "name": "Western Baltic",
+              "level id": 103,
+              "alive": "x",
+              "children": [
+                {
+                  "name": "Sudovian",
+                  "level id": 104,
+                  "alive": "n",
+                  "children": [],
+                  "iso6393": "xsv",
+                  "country_array": [],
+                  "cca2_code_array": [],
+                  "cca3_code_array": []
+                }
+              ],
+              "iso6393": "xxx",
+              "country_array": [],
+              "cca2_code_array": [],
+              "cca3_code_array": []
+            }
+          ],
+          "iso6393": "xxx",
+          "country_array": [],
+          "cca2_code_array": [],
+          "cca3_code_array": []
+        },
+        {
+          "name": "Slavic",
+          "level id": 102,
+          "alive": "x",
+          "children": [
+            {
+              "name": "Western Slavic",
+              "level id": 103,
+              "alive": "x",
+              "children": [
+                {
+                  "name": "Old West Slavic",
+                  "level id": 104,
+                  "alive": "n",
+                  "children": [
+                    {
+                      "name": "Czech-Slovak",
+                      "level id": 105,
+                      "alive": "n",
+                      "children": [
+                        {
+                          "name": "Czech",
+                          "level id": 106,
+                          "alive:": "y",
+                          "children": [],
+                          "iso6393": "ces",
+                          "country_array": [],
+                          "cca2_code_array": [],
+                          "cca3_code_array": []
+                        },
+                        {
+                          "name": "Slovak",
+                          "level id": 106,
+                          "alive": "y",
+                          "children": [],
+                          "iso6393": "slk",
+                          "country_array": [
+                            "Slovakia"
+                          ],
+                          "cca2_code_array": [
+                            "SK"
+                          ],
+                          "cca3_code_array": [
+                            "SVK"
+                          ]
+                        }
+                      ],
+                      "iso6393": "xxx",
+                      "country_array": [],
+                      "cca2_code_array": [],
+                      "cca3_code_array": []
+                    }
+                  ],
+                  "iso6393": "xxx",
+                  "country_array": [],
+                  "cca2_code_array": [],
+                  "cca3_code_array": []
+                }
+              ],
+              "iso6393": "xxx",
+              "country_array": [],
+              "cca2_code_array": [],
+              "cca3_code_array": []
+            },
+            {
+              "name": "Southern Slavic",
+              "level id": 103,
+              "alive": "x",
+              "children": [
+                {
+                  "name": "Serbo-Croatian",
+                  "level id": 104,
+                  "alive": "y",
+                  "children": [],
+                  "iso6393": "hbs",
+                  "country_array": [],
+                  "cca2_code_array": [],
+                  "cca3_code_array": []
+                }
+              ],
+              "iso6393": "xxx",
+              "country_array": [],
+              "cca2_code_array": [],
+              "cca3_code_array": []
+            },
+            {
+              "name": "Eastern Slavic",
+              "level id": 103,
+              "alive": "x",
+              "children": [
+                {
+                  "name": "Ruthenian",
+                  "level id": 104,
+                  "alive": "n",
+                  "children": [
+                    {
+                      "name": "Ukrainian",
+                      "level id": 105,
+                      "alive": "y",
+                      "children": [],
+                      "iso6393": "ukr",
+                      "country_array": [],
+                      "cca2_code_array": [],
+                      "cca3_code_array": []
+                    }
+                  ],
+                  "iso6393": "xxx",
+                  "country_array": [],
+                  "cca2_code_array": [],
+                  "cca3_code_array": []
+                }
+              ],
+              "iso6393": "xxx",
+              "country_array": [],
+              "cca2_code_array": [],
+              "cca3_code_array": []
+            }
+          ],
+          "iso6393": "xxx",
+          "country_array": [],
+          "cca2_code_array": [],
+          "cca3_code_array": []
+        }
+      ],
+      "iso6393": "xxx",
+      "country_array": [],
+      "cca2_code_array": [],
+      "cca3_code_array": []
+    }
+  ],
+  "iso6393": "xxx",
+  "country_array": [],
+  "cca2_code_array": [],
+  "cca3_code_array": []
+}

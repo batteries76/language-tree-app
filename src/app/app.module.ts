@@ -4,17 +4,25 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { LanguageTreeComponent } from './language-tree/language-tree.component';
+import { MapAreaComponent } from './map-area/map-area.component';
+
+import { LanguageService } from './language.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LanguageTreeComponent,
+    MapAreaComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [
+    LanguageService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
