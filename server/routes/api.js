@@ -1,5 +1,6 @@
 console.log("api running away");
 
+var cors = require('cors');
 const express = require('express');
 const router = express.Router();
 
@@ -9,6 +10,7 @@ const router = express.Router();
 
 const app = express();
 const axios = require('axios');
+app.use(cors());
 
 const MongoClient = require('mongodb').MongoClient
 
@@ -27,7 +29,7 @@ router.get('/', (req, res) => {
 
 // Get all posts
 router.get('/country-info', (req, res) => {
-  console.log("COUNTRY Info!");
+  console.log("API COUNTRY Info!");
   db.collection('country-info').find().toArray((err, results) => {
 //    console.log(results);
     res.send(results);
@@ -35,7 +37,7 @@ router.get('/country-info', (req, res) => {
 });
 
 router.get('/final-language-tree', (req, res) => {
-  console.log("LANGUAGES!");
+  console.log("API LANGUAGES!");
   db.collection('final-language-tree').find().toArray((err, results) => {
 //    console.log(results);
     res.send(results);
@@ -43,22 +45,18 @@ router.get('/final-language-tree', (req, res) => {
 });
 
 router.get('/country-geo', (req, res) => {
-  console.log("COUNTRY geo!");
-  db.collection('country-geo').find().toArray((err, results) => {
+  console.log("API COUNTRY geo!");
+  console.log(req.query);
+  db.collection('country-geo').find({features: {$elemMatch: { "properties": req.query }}}).toArray((err, results) => {
 //    console.log(results);
     res.send(results);
   });
 });
 
 router.get('/country-geo/:cca2', (req, res) => {
-  console.log("COUNTRY geo (with params)!");
+  console.log("API COUNTRY geo (with params)!");
   console.log(req.params);
   console.log(req.params.cca2);
-  db.collection('country-geo').find({features: {$elemMatch: { "properties": req.params }}}).toArray((err, results) => {
-    console.log("geo results");
-    console.log(results);
-    res.send(results);
-  });
 });
 
 module.exports = router;

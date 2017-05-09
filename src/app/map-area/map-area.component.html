@@ -2,5 +2,20 @@
   map-area works!
 </div>
 <div class="map-area-container">
-
+  <!-- <sebm-google-map class="sebm-google-map-container" [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+    <sebm-map-polygon [paths]="geoObject">
+    </sebm-map-polygon>
+  </sebm-google-map> -->
+  <ng2-map class="sebm-google-map-container" zoom="5" scrollwheel="false">
+    <polygon [editable]="true"
+      [latitude]="lat"
+      [longitude]="lng"
+      [paths]="geoObject"
+      [strokeColor]="'#0000ff'"
+      [strokeOpacity]="0.8"
+      [strokeWeight]="2"
+      [fillColor]="'#0000ff'"
+      [fillOpacity]="0.35"></polygon>
+  </ng2-map>
+  {{geoSum}}
 </div>

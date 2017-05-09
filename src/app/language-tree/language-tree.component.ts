@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguageService } from '../language.service';
-import { Http, Response }          from '@angular/http';
+import { GeoDataService } from '../geo-data.service';
+import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
@@ -22,7 +23,7 @@ export class LanguageTreeComponent implements OnInit {
 
   errorMessage: any;
 
-  constructor(private languageService: LanguageService) {
+  constructor(private languageService: LanguageService, private geoDataService: GeoDataService) {
   }
 
   ngOnInit() {
@@ -47,8 +48,8 @@ export class LanguageTreeComponent implements OnInit {
   }
 
   getMapData(cca2_code_array){
-    console.log("in getMapData")
-    this.languageService.getCountryGeoData(cca2_code_array)
+    console.log("in getMapData");
+    this.geoDataService.getCountryGeoData(cca2_code_array);
   }
 
   goBackUp(){

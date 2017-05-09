@@ -6,3 +6,12 @@
   background-color: indianred;
   height: 400px;
 }
+
+.google-map-plain {
+  height: 300px;
+  background-color: slategrey;
+}
+
+.google-map-container {
+  height: 400px;
+}

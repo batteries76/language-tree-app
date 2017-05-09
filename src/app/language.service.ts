@@ -1,13 +1,11 @@
-import { Injectable }              from '@angular/core';
-import { Http, Response }          from '@angular/http';
+import { Injectable } from '@angular/core';
+import { Http, Response, Headers, RequestOptions, URLSearchParams } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 
 @Injectable()
 export class LanguageService {
-
-  geoArray: Array<string>;
 
   constructor(private http: Http) { }
 
@@ -17,24 +15,6 @@ export class LanguageService {
     return this.http.get('/api/final-language-tree')
       .map(this.extractData)
       .catch(this.handleError);
-  }
-
-  getCountryGeoData(cca2Array) {
-    this.geoArray = [];
-    var geoData;
-    console.log("in getCountryGeoData");
-    console.log("cca2Array is: " + cca2Array);
-    if(cca2Array.length>0) {
-      cca2Array.forEach(cca2Code => {
-        var cca2CodeL = cca2Code.toLowerCase();
-        console.log("cca2CodeL is: " + cca2CodeL);
-        geoData = this.http.get('/api/country-geo/:cca2CodeL')
-          .map(this.extractData)
-          .catch(this.handleError);
-        this.geoArray.push(geoData);
-      });
-    }
-    return this.geoArray;
   }
 
   private extractData(res: Response) {
