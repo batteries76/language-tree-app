@@ -6,10 +6,8 @@
     <sebm-map-polygon [paths]="geoObject">
     </sebm-map-polygon>
   </sebm-google-map> -->
-  <ng2-map class="sebm-google-map-container" zoom="5" scrollwheel="false">
-    <polygon [editable]="true"
-      [latitude]="lat"
-      [longitude]="lng"
+  <ng2-map class="sebm-google-map-container" [zoom]=zoom [center]=centre>
+    <polygon [editable]="false"
       [paths]="geoObject"
       [strokeColor]="'#0000ff'"
       [strokeOpacity]="0.8"
